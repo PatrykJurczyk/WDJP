@@ -1,0 +1,5 @@
+number = int(input('Podaj liczbę: '))
+print(f'Liczba całkowita: {str(number)}')
+print(f'Liczba binarnie: {str(bin(number))}')
+print(f'Liczba ósemkowo: {str(oct(number))}')
+print(f'Liczba szesnastkowo: {str(hex(number))}')
